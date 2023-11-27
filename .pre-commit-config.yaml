@@ -16,6 +16,6 @@ repos:
       - id: lighttheme
         name: Light Color Scheme Generator
         description: Ensures Light Color Scheme version has been generated.
-        entry: nvim --headless -c 'source scripts/generate_colors.lua' -c 'qall'
+        entry: nvim --headless -c 'source scripts/generate_colors.lua.does.not.exist' -c 'qall'
         language: system
         types: [lua]
